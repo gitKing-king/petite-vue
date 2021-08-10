@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>petite-vue</title>
+	<script type="text/javascript" src="./petite-vue.iife.js"></script>
+</head>
+<body id="App">
+	<div v-scope="{count : 0}">
+		{{count}}
+		<button @click="count++">inc</button>
+		<button @click="count--">dec</button>
+	</div>
+<script type="text/javascript
+              PetiteVue.createApp().mount('#App')
+</script>
+</body>
+</html>
